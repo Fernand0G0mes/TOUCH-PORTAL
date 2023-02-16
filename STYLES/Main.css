@@ -471,7 +471,7 @@ height: 700px;
 
 .SIX {
 height: 850px;
-background-image: linear-gradient(45deg, #15ff00ec, rgba(132, 0, 255, 0.815)),
+background-image: linear-gradient(45deg, #2b2166, #4c0094d0),
 url(../IMG/rocket.asvg);
 background-size: contain;
 background-repeat: no-repeat;
