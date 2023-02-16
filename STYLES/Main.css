@@ -369,37 +369,37 @@ height: 700px;
 
 @keyframes colori{
 0%{
-    background-color: #00d9ff;
+    background-color: #590FBF;
 }
 10%{
-    background-color: #d400ff;
+    background-color: #340B8C;
 }
 20%{
-    background-color: #da0606;
+    background-color: #4F22F2;
 }
 30%{
-    background-color: #00ff37;
+    background-color: #010B40;
 }
 40%{
-    background-color: #3719bd;
+    background-color: #590FBF;
 }
 50%{
-    background-color: #00d9ff;
+    background-color: #340B8C;
 }
 60%{
-    background-color: #da0606;
+    background-color: #4F22F2;
 }
 70%{
-    background-color: #00ff37;
+    background-color: #010B40;
 }
 80%{
-    background-color: #3719bd;
+    background-color: #590FBF;
 }
 90%{
-    background-color: #00d9ff;
+    background-color: #340B8C;
 }
 100%{
-    background-color: #da0606;
+    background-color: #4F22F2;
 }
 }
 
@@ -471,7 +471,7 @@ height: 700px;
 
 .SIX {
 height: 850px;
-background-image: linear-gradient(45deg, #1d1160, #4c0094d0),
+background-image: linear-gradient(45deg, #0d0318, 50%, #4c0094d0),
 url(../IMG/rocket.asvg);
 background-size: contain;
 background-repeat: no-repeat;
@@ -497,7 +497,7 @@ transform: translateX(-50%);
 margin-top: 50px;
 font-size: 50px;
 font-weight: 200;
-color: rgb(30, 0, 85);
+color: rgb(245, 243, 248);
 }
 .get2 {
 display: inline-block;
@@ -507,9 +507,9 @@ transform: translateX(-50%);
 font-size: 40px;
 font-weight: 900;
 margin-top: -10px;
-border-bottom: 3px solid rgb(30, 0, 85);;
+border-bottom: 3px solid rgb(42, 9, 104);;
 padding: 0px 295px 0px 140px;
-color: rgb(30, 0, 85);
+color: rgb(241, 238, 247);
 }
 
 
@@ -522,8 +522,11 @@ transform: translateX(-50%);
 margin-top: -170px;
 font-size: 280px;
 font-weight: 900;
-color: rgba(30, 0, 85, 0.671);
+color: #580fbfcc;
+text-shadow: rgba(0, 0, 0, 0.24) 8px 7px 4px;
+
 }
+
 
 /* :::::::: BOX ALIGN :::::::: */
 .boxall {
@@ -581,10 +584,11 @@ color: white;
     padding: 10px;
     margin: 5px;
     display: inline-block;
-    background: radial-gradient(circle, rgba(114,240,255,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(195,151,255,1) 100%);
     width: 300px;
     height: 500px;
     border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.959) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .box2:hover {
     box-shadow: rgba(17, 12, 46, 0.658) 0px 48px 60px 0px;
@@ -592,10 +596,11 @@ color: white;
     padding: 10px;
     margin: 5px;
     display: inline-block;
-    background: radial-gradient(circle, #4F22F2 0%, #340B8C 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(195,151,255,1) 100%);
     width: 300px;
     height: 500px;
     border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.959) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .box3:hover {
     box-shadow: rgba(17, 12, 46, 0.658) 0px 48px 60px 0px;
@@ -603,11 +608,18 @@ color: white;
     padding: 10px;
     margin: 5px;
     display: inline-block;
-    background: radial-gradient(circle, rgba(247,255,114,1) 0%, rgba(255,158,0,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(195,151,255,1) 100%);
     width: 300px;
     height: 500px;
     border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.959) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
+
+
+
+
+
 
 /* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
 
@@ -624,7 +636,7 @@ background-repeat: no-repeat;
 }
 
 .SEVEN img {
-    margin-top: 310px;
+    margin-top: 250px;
 }
 
 .SEVEN h1 {
@@ -633,7 +645,7 @@ background-repeat: no-repeat;
     margin-top: 30px;
     display: inline-block;
     font-size: 50px;
-    color: white;
+    color: #010626;
     
 }
 
@@ -642,14 +654,14 @@ background-repeat: no-repeat;
     display: inline-block;
     font-size: 20px;
     padding: 0px 30px 10px 30px;
-    color: white;
+    color: #010626;
 }
 
 .baseblock{
     text-align: right;
     position: absolute;
     margin: 50px 0px 0px -30px;
-    background: linear-gradient(180deg, rgb(43, 43, 43) 0%, rgb(20, 20, 20) 100%);
+    background: white;
     width: 1350px;
     height: 150px;
     border-radius: 0px 10px 10px 0px;
@@ -663,7 +675,7 @@ background-repeat: no-repeat;
     margin-top: -462px;
     width: 150px; 
     height: 100px; 
-    background: linear-gradient(168deg, rgba(57,57,57,1) 14%, rgba(38,38,38,1) 24%, rgba(0,0,0,1) 100%);
+    background: #1a1a1a;
     -webkit-transform: skew(20deg);
     -moz-transform: skew(20deg);
     -ms-transform: skew(20deg);
@@ -676,40 +688,39 @@ background-repeat: no-repeat;
 
 /* :::::::: SEVEN2 :::::::: */
 .SEVEN2 {
-    height: 850px;
-    background: linear-gradient( #d8d8d8, #ecebeb);
-    margin: 5px 40px 0px 40px;
-    border-radius: 40px 40px 0px 0px;
-    text-align: center;
+    text-align: left;
+    position: absolute;
+    margin: 50px 0px 0px 460px;
+    background: white;
+    width: 1350px;
+    height: 220px;
+    border-radius: 10px 0px 0px 10px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    text-align: center;
 }
 .SEVEN2 h1 {
-    font-weight: 900;
-    margin-top: 60px;
+    color: #010626;
     display: inline-block;
     font-size: 50px;
 }
 
 .SEVEN2 p {
+    color: #010626;
     font-weight: 200;
     display: inline-block;
     font-size: 20px;
-    border-bottom: 3px solid black;
-    padding: 0px 30px 10px 30px;
+
 }
 
 
 /* :::::::: SEVEN3 :::::::: */
 .SEVEN3 {
-height: 850px;
-background: linear-gradient(#ecebeb ,#d8d8d8 );
-margin: 5px 40px 0px 40px;
-border-radius: 0px 0px 40px 40px;
 text-align: center;
-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
 }
 
 .SEVEN3 h1 {
+    color: white;
 font-weight: 900;
 margin-top: 60px;
 display: inline-block;
@@ -717,6 +728,7 @@ font-size: 50px;
 }
 
 .SEVEN3 p {
+    color: white;
 font-weight: 200;
 display: inline-block;
 font-size: 20px;
@@ -727,15 +739,11 @@ padding: 0px 30px 10px 30px;
 
 /* :::::::: SEVEN4 :::::::: */
 .SEVEN4 {
-height: 850px;
-background: linear-gradient( #d8d8d8, #ecebeb);
-margin: 5px 40px 0px 40px;
-border-radius: 40px 40px 0px 0px;
 text-align: center;
-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .SEVEN4 h1 {
+    color: white;
 font-weight: 900;
 margin-top: 60px;
 display: inline-block;
@@ -743,6 +751,7 @@ font-size: 50px;
 }
 
 .SEVEN4 p {
+    color: white;
 font-weight: 200;
 display: inline-block;
 font-size: 20px;
