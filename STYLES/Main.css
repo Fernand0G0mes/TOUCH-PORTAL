@@ -617,70 +617,70 @@ color: white;
 
 
 
+/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
 
+/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
 
+/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
 
+/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
+
+/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
+
+/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
 
 /* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
 
 /* :::::::: SEVEN1 :::::::: */
 .SEVEN {
     height: 6000px;
-    background-image: url(../IMG/baseAPPS.jpg);
-    background-position: top;
-background-repeat: no-repeat;
-    margin: 0px 60px 0px 60px;
-    border-radius: 0px 0px 40px 40px;
+    background-color: #010B40;
+}
+
+
+
+.SEVEN1 h1 {
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-
-.SEVEN img {
-    margin-top: 250px;
-}
-
-.SEVEN h1 {
     padding-right: 30px;
     font-weight: 900;
     margin-top: 30px;
     display: inline-block;
-    font-size: 50px;
+    font-size: 30px;
     color: #010626;
     
 }
 
-.SEVEN p {
+.SEVEN1 p {
+    text-align: center;
     font-weight: 200;
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     padding: 0px 30px 10px 30px;
     color: #010626;
 }
 
-.baseblock{
+.SEVEN1{
+    color: black;
     text-align: right;
     position: absolute;
-    margin: 50px 0px 0px -30px;
+    margin: 50px 0px 0px 110px;
     background: white;
-    width: 1350px;
-    height: 150px;
-    border-radius: 0px 10px 10px 0px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 650px;
+    height: 450px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.082) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.048) 0px -3px 0px inset;
 }
 
 .frange {
+    z-index: 0;
+    margin-top: 392.87%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
-    z-index: -1;
-    margin-left: -11px;
-    margin-top: -462px;
-    width: 150px; 
-    height: 100px; 
-    background: #1a1a1a;
-    -webkit-transform: skew(20deg);
-    -moz-transform: skew(20deg);
-    -ms-transform: skew(20deg);
-    -o-transform: skew(20deg);
-    transform: skew(20deg);
+    height: 6000px;
+    background-color: #ffffff;
+    width: 1200px;
 }
 
 
@@ -690,7 +690,7 @@ background-repeat: no-repeat;
 .SEVEN2 {
     text-align: left;
     position: absolute;
-    margin: 50px 0px 0px 460px;
+    margin: 650px 0px 0px 460px;
     background: white;
     width: 1350px;
     height: 220px;
@@ -720,6 +720,8 @@ text-align: center;
 }
 
 .SEVEN3 h1 {
+
+    
     color: white;
 font-weight: 900;
 margin-top: 60px;
