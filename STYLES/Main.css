@@ -279,7 +279,7 @@ height: 750px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 7750px;
+    margin-top: 10550px;
 }
 
 .DownloadsDropDownContainer {
@@ -362,7 +362,6 @@ height: 750px;
 
 
 .FIVE {
-
 animation: colori 20s infinite;
 height: 700px;
 }
@@ -405,7 +404,7 @@ height: 700px;
 
 /*......Basic structure of slider.........*/
 .slideshow{
-    margin-top: 4123px;
+    margin-top: 10120px;
     width: 1850px;
     height: 650px;
     position: absolute;
@@ -637,50 +636,53 @@ color: white;
     background-color: #010B40;
 }
 
-
-
-.SEVEN1 h1 {
-    text-align: center;
-    padding-right: 30px;
-    font-weight: 900;
-    margin-top: 30px;
-    display: inline-block;
-    font-size: 30px;
-    color: #010626;
-    
-}
-
-.SEVEN1 p {
-    text-align: center;
-    font-weight: 200;
-    display: inline-block;
-    font-size: 15px;
-    padding: 0px 30px 10px 30px;
-    color: #010626;
-}
-
 .SEVEN1{
+    text-align: center;
     color: black;
-    text-align: right;
     position: absolute;
     margin: 50px 0px 0px 110px;
     background: white;
-    width: 650px;
+    width: 450px;
     height: 450px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 80px 80px 80px 80px;
     box-shadow: rgba(0, 0, 0, 0.082) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.048) 0px -3px 0px inset;
 }
 
-.frange {
-    z-index: 0;
-    margin-top: 392.87%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    height: 6000px;
-    background-color: #ffffff;
-    width: 1200px;
+.SEVEN1 h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #010626; 
+}
+
+.divP {
+    margin: 20px auto 0px auto;
+    width: 300px;
+    height: 300px;
+    
+    
+}
+
+.lineh1seven {
+    text-align: center;
+    display: inline-block;
+    padding: 0px 45px 10px 45px;
+    border-bottom: 3px solid black;
+}
+
+
+
+
+.SEVEN1 p {
+    text-align:justify ;
+    font-weight: 200;
+    display: inline-block;
+    font-size: 15px;
+    
+    color: #010626;
 }
 
 
