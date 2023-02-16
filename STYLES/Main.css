@@ -471,7 +471,7 @@ height: 700px;
 
 .SIX {
 height: 850px;
-background-image: linear-gradient(45deg, #2b2166, #4c0094d0),
+background-image: linear-gradient(45deg, #1d1160, #4c0094d0),
 url(../IMG/rocket.asvg);
 background-size: contain;
 background-repeat: no-repeat;
@@ -502,13 +502,13 @@ color: rgb(30, 0, 85);
 .get2 {
 display: inline-block;
 position: relative;
-left: 50%; 
+left: 54%; 
 transform: translateX(-50%);
 font-size: 40px;
 font-weight: 900;
 margin-top: -10px;
 border-bottom: 3px solid rgb(30, 0, 85);;
-padding: 0px 295px 0px 295px;
+padding: 0px 295px 0px 140px;
 color: rgb(30, 0, 85);
 }
 
@@ -522,7 +522,7 @@ transform: translateX(-50%);
 margin-top: -170px;
 font-size: 280px;
 font-weight: 900;
-color: rgba(30, 0, 85, 0.562);
+color: rgba(30, 0, 85, 0.671);
 }
 
 /* :::::::: BOX ALIGN :::::::: */
@@ -592,7 +592,7 @@ color: white;
     padding: 10px;
     margin: 5px;
     display: inline-block;
-    background: radial-gradient(circle, rgba(147,255,114,1) 0%, rgba(44,255,0,1) 100%);
+    background: radial-gradient(circle, #4F22F2 0%, #340B8C 100%);
     width: 300px;
     height: 500px;
     border-radius: 20px 20px 20px 20px;
