@@ -1,0 +1,754 @@
+
+
+*{
+margin: 0;
+padding: 0;
+font-family: "Pluto";
+scroll-behavior: smooth;
+}
+
+/* ....................:::::::: DIVISION ::::::::.................... */
+
+#divICON {
+    position: absolute;
+    margin-top: 550px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#divICON img {
+    width: 1300px;
+}
+
+#divPX1 {
+    position: absolute;
+    clip-path: inset(0 0 66px 0px);
+    width: 101%;
+    margin-left: -10px;
+    margin-top: -700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/* ....................:::::::: MAIN ::::::::.................... */
+
+article {
+    position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#market {
+margin-top: 350px;
+margin-left: 780px;
+position: absolute;
+display: flex;
+}
+
+.market {
+padding: 0px 20px 0px 20px;
+
+}
+
+.market:hover {
+    padding: 1px 20px 0px 20px;
+    fill-opacity: 100%;
+    opacity: 0.5;
+
+}
+
+#phonemain {
+margin-top: 170px;
+margin-right: 40px;
+}
+
+#logotext {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#logotext h1 {
+    justify-content: center;
+    width: 350px;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+
+.works {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#esq {
+    width: 150px;
+    height: 2px;
+    background: rgb(255, 255, 255);
+}
+
+#dir {
+    width: 150px;
+    height: 2px;
+    background: rgb(255, 255, 255);
+}
+
+#logotext h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+
+/* ....................:::::::: MAIN ::::::::.................... */
+
+.ONE {
+    margin: 50px;
+    color: white;
+    margin-top: 100px;
+    height: 850px;
+    background-image: url(../IMG/IMG-MAIN.jpg);
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    }
+
+
+/* ....................:::::::: FOOTER ::::::::.................... */
+
+footer {
+text-align: center;
+height: 400px;
+background-color: #000000;
+color: white;
+}
+footer h1 {
+    font-size: 20px;
+    font-weight: 200;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+          
+
+/* ....................:::::::: THE MACRO MULTI ACTION REMOTE CONTROL ::::::::.................... */
+
+.TWO {
+
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-top: 140px;
+background: rgb(252, 252, 252);
+height: 950px;
+background-image: url(../IMG/PAG2-no-text.jpg);
+background-position: top 120px center;
+background-repeat: no-repeat;
+}
+
+span {
+margin: -30px;
+
+}
+
+span > div > p {
+
+font-size: 14px;
+font-weight: 300;
+}
+
+span > div > h1 {
+margin-bottom: 6px;
+font-size: 20px;
+font-weight: 800;
+}
+
+
+
+/* :::::::: TEXT PAG 2 :::::::: */
+
+    .TWO > div > h1{
+        font-weight: 900;
+        font-size: 40px;
+    }
+    .TWO > div > h2{
+        font-size: 25px;
+        font-weight: 300;
+        padding: 0px 46px 10px 46px;
+        border-bottom: 3px solid black;
+    }
+
+    .Multi{
+        position: absolute;
+        margin: 89px 0px 0px -363px;
+    }
+
+    .Buttons{
+        position: absolute;
+        margin: 89px 0px 0px 30px;
+    }
+
+    .Grid{
+        position: absolute;
+        margin: 360px 0px 0px -565px;
+    }
+
+    .Pages{
+        position: absolute;
+        margin: 360px 0px 0px 375px;
+    }
+
+    .Support {
+            position: absolute;
+            margin: 615px 0px 0px -325px;
+    }             
+    .Slider {
+        position: absolute;
+        margin: 615px 0px 0px 30px;
+    }
+
+
+/* ....................:::::::: MULTI ACTION MACRO BUTTONS ::::::::.................... */
+
+.THREE {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient( #000000, #1d1d1d);
+    height: 1350px;
+    color: white;
+}
+
+.THREE > div > h1{
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 900; 
+}
+
+.THREE > div > h2{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0px 46px 10px 46px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+#img-pag3 {
+    width: 100%;
+    max-width: 1920px;
+    margin-top: 38px;
+    clip-path: inset(0 0 1044px 0px);
+  }
+  
+
+
+/* ....................:::::::: PAG 4 - DOWNLOADS ::::::::.................... */
+
+
+.FOUR {
+display: flex;
+justify-content: center;
+background:  linear-gradient(90deg, #3719bd, #181063);
+height: 750px;
+
+}
+
+
+
+.DownloadsAllContainer {
+    margin-top: 170px;
+    text-align: center;
+}
+
+#down-four {
+    position: absolute;
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    padding: 0px 345px 10px 345px;
+    border-bottom: 3px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 7750px;
+}
+
+.DownloadsDropDownContainer {
+    width: 920px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.541);
+}
+
+.DownloadsCurrentVersionContainer {
+    font-size: 18px;
+    display: inline-block;
+}
+
+.DownloadsCurrentVersionContainer img {
+    display: inline-block;
+    width: 40px;
+    margin-top: 2px;
+}
+
+.DownloadsPlatform {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    padding-left: 10px;
+    vertical-align: top;
+    margin-top: 14px;
+}
+
+.DownloadsAppVersion {
+    border-right: 2px solid black;
+    font-weight: 800;
+    display: inline-block;
+    width: 130px;
+    text-align: left;
+    padding-left: 10px;
+    vertical-align: top;
+    margin-top: 14px;
+}
+
+.DownloadsSupportedVersions {
+
+    
+    display: inline-block;
+    width: 350px;
+    text-align: left;
+    padding-left: 68px;
+    vertical-align: top;
+    margin-top: 14px;
+}
+
+.DownloadsButton {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    width: 120px;
+    padding-right: 20px;
+    vertical-align: top;
+    margin-top: 4px;
+}
+                
+.DownloadsButton:hover {
+    border: 2px solid rgba(0, 138, 115, 0.589);
+    background-color: rgb(0, 187, 115);
+    box-shadow: inset 0px 6px 10px 1px rgb(1, 53, 8);;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+/* ....................:::::::: PAG 5 ::::::::.................... */
+
+
+.FIVE {
+
+animation: colori 20s infinite;
+height: 700px;
+}
+
+@keyframes colori{
+0%{
+    background-color: #00d9ff;
+}
+10%{
+    background-color: #d400ff;
+}
+20%{
+    background-color: #da0606;
+}
+30%{
+    background-color: #00ff37;
+}
+40%{
+    background-color: #3719bd;
+}
+50%{
+    background-color: #00d9ff;
+}
+60%{
+    background-color: #da0606;
+}
+70%{
+    background-color: #00ff37;
+}
+80%{
+    background-color: #3719bd;
+}
+90%{
+    background-color: #00d9ff;
+}
+100%{
+    background-color: #da0606;
+}
+}
+
+/*......Basic structure of slider.........*/
+.slideshow{
+    margin-top: 4123px;
+    width: 1850px;
+    height: 650px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    border: 15px solid rgba(0, 0, 0, 0);
+    box-shadow: 0px 15px 45px #0000008a;
+    }
+    
+    
+    /*Area of images*/
+    .wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 15s infinite;
+    }
+    
+    /*Animation activated by keyframes*/
+    @keyframes slide{
+    0%{
+    transform: translateX(0);
+    }
+    10%{
+    transform: translateX(0);
+    }
+    20%{
+    transform: translateX(-100%);
+    }
+    30%{
+    transform: translateX(-100%);
+    }
+    40%{
+    transform: translateX(-200%);
+    }
+    50%{
+    transform: translateX(-200%);
+    }
+    60%{
+    transform: translateX(-300%);
+    }
+    70%{
+    transform: translateX(-300%);
+    }
+    80%{
+    transform: translateX(-400%);
+    }
+    90%{
+    transform: translateX(-400%);
+    }
+    100%{
+    transform: translateX(-500%);
+    }
+    }
+
+
+
+
+
+/* ....................:::::::: PAG 6 - GET STARTED WITH ::::::::.................... */
+
+
+.SIX {
+height: 850px;
+background-image: linear-gradient(45deg, #15ff00ec, rgba(132, 0, 255, 0.815)),
+url(../IMG/rocket.asvg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: 90% 10%;
+}
+
+
+.foguete {
+position: relative;
+top: -1000px;
+margin-left: -290px;
+z-index: -1;
+width: 60%;
+}
+
+
+/* :::::::: TEXT HEADER :::::::: */
+.get1 {
+display: inline-block;
+position: relative;
+left: 50%; 
+transform: translateX(-50%);
+margin-top: 50px;
+font-size: 50px;
+font-weight: 200;
+color: rgb(30, 0, 85);
+}
+.get2 {
+display: inline-block;
+position: relative;
+left: 50%; 
+transform: translateX(-50%);
+font-size: 40px;
+font-weight: 900;
+margin-top: -10px;
+border-bottom: 3px solid rgb(30, 0, 85);;
+padding: 0px 295px 0px 295px;
+color: rgb(30, 0, 85);
+}
+
+
+/* :::::::: NUMBER BOX :::::::: */
+.get3 {
+display: inline-block;
+position: relative;
+left: 52%; 
+transform: translateX(-50%);
+margin-top: -170px;
+font-size: 280px;
+font-weight: 900;
+color: rgba(30, 0, 85, 0.562);
+}
+
+/* :::::::: BOX ALIGN :::::::: */
+.boxall {
+text-align: center;
+color: rgb(47, 2, 129);
+margin-top: 50px;
+}
+.boxall h2 {
+margin-top: 30px; 
+}
+.boxall img{
+margin-top: 30px;
+width: 30%;
+}
+.boxall p{
+margin-top: 30px;
+color: rgb(42, 0, 77);
+}
+.boxall h3 {
+color: white;
+}
+
+
+/* :::::::: BOX STYLE :::::::: */
+.box1 {
+    z-index: 212;
+    margin: 5px;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 500px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.box2 {
+    margin: 5px;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 500px;
+}
+
+.box3 {
+    margin: 5px;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 500px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.box1:hover {
+    box-shadow: rgba(17, 12, 46, 0.658) 0px 48px 60px 0px;
+    transition: 0.8s;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    background: radial-gradient(circle, rgba(114,240,255,1) 0%, rgba(0,212,255,1) 100%);
+    width: 300px;
+    height: 500px;
+    border-radius: 20px 20px 20px 20px;
+}
+.box2:hover {
+    box-shadow: rgba(17, 12, 46, 0.658) 0px 48px 60px 0px;
+    transition: 0.8s;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    background: radial-gradient(circle, rgba(147,255,114,1) 0%, rgba(44,255,0,1) 100%);
+    width: 300px;
+    height: 500px;
+    border-radius: 20px 20px 20px 20px;
+}
+.box3:hover {
+    box-shadow: rgba(17, 12, 46, 0.658) 0px 48px 60px 0px;
+    transition: 0.8s;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    background: radial-gradient(circle, rgba(247,255,114,1) 0%, rgba(255,158,0,1) 100%);
+    width: 300px;
+    height: 500px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
+
+/* :::::::: SEVEN1 :::::::: */
+.SEVEN {
+    height: 6000px;
+    background-image: url(../IMG/baseAPPS.jpg);
+    background-position: top;
+background-repeat: no-repeat;
+    margin: 0px 60px 0px 60px;
+    border-radius: 0px 0px 40px 40px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.SEVEN img {
+    margin-top: 310px;
+}
+
+.SEVEN h1 {
+    padding-right: 30px;
+    font-weight: 900;
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+    
+}
+
+.SEVEN p {
+    font-weight: 200;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 30px 10px 30px;
+    color: white;
+}
+
+.baseblock{
+    text-align: right;
+    position: absolute;
+    margin: 50px 0px 0px -30px;
+    background: linear-gradient(180deg, rgb(43, 43, 43) 0%, rgb(20, 20, 20) 100%);
+    width: 1350px;
+    height: 150px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.frange {
+    position: absolute;
+    z-index: -1;
+    margin-left: -11px;
+    margin-top: -462px;
+    width: 150px; 
+    height: 100px; 
+    background: linear-gradient(168deg, rgba(57,57,57,1) 14%, rgba(38,38,38,1) 24%, rgba(0,0,0,1) 100%);
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+}
+
+
+
+
+/* :::::::: SEVEN2 :::::::: */
+.SEVEN2 {
+    height: 850px;
+    background: linear-gradient( #d8d8d8, #ecebeb);
+    margin: 5px 40px 0px 40px;
+    border-radius: 40px 40px 0px 0px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.SEVEN2 h1 {
+    font-weight: 900;
+    margin-top: 60px;
+    display: inline-block;
+    font-size: 50px;
+}
+
+.SEVEN2 p {
+    font-weight: 200;
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: 3px solid black;
+    padding: 0px 30px 10px 30px;
+}
+
+
+/* :::::::: SEVEN3 :::::::: */
+.SEVEN3 {
+height: 850px;
+background: linear-gradient(#ecebeb ,#d8d8d8 );
+margin: 5px 40px 0px 40px;
+border-radius: 0px 0px 40px 40px;
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.SEVEN3 h1 {
+font-weight: 900;
+margin-top: 60px;
+display: inline-block;
+font-size: 50px;
+}
+
+.SEVEN3 p {
+font-weight: 200;
+display: inline-block;
+font-size: 20px;
+border-bottom: 3px solid black;
+padding: 0px 30px 10px 30px;
+}
+
+
+/* :::::::: SEVEN4 :::::::: */
+.SEVEN4 {
+height: 850px;
+background: linear-gradient( #d8d8d8, #ecebeb);
+margin: 5px 40px 0px 40px;
+border-radius: 40px 40px 0px 0px;
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.SEVEN4 h1 {
+font-weight: 900;
+margin-top: 60px;
+display: inline-block;
+font-size: 50px;
+}
+
+.SEVEN4 p {
+font-weight: 200;
+display: inline-block;
+font-size: 20px;
+border-bottom: 3px solid black;
+padding: 0px 30px 10px 30px;
+}
+
+
+

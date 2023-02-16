@@ -1,0 +1,239 @@
+
+body { 
+    height: 7000px;
+    margin: 0px;
+    padding: 0;
+    }
+    
+    
+    
+    header {
+        z-index: 9999;
+    margin-top: -100px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -11px 60px 20px;
+    }
+    
+    
+    nav {
+    font-family: 'Pluto';
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: row;
+    }
+    
+    
+    
+    h1 {
+    display: flex;
+    flex-direction: row;
+    }
+    
+    h1 > p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: auto 25px;
+    overflow: clip;
+    padding: 10px 90px 10px 10px;
+    padding-left: 20px;
+    border-left:  2px solid black;
+    }
+    
+    
+    
+    
+     /** COLOR LINKS **/
+                            a{
+                            color:#000000;
+                            }
+    
+                            /** ------------------------------------------------ **/
+                            
+                            .what {
+                                margin: -40px -22px;
+                                border-top: 2px solid black;
+                                border-bottom: 2px solid black;
+                                padding: 25px 134px;
+                                position: absolute;
+                            }
+                            #what:hover {
+                            background-image: linear-gradient(45deg, #20202023, #00000018);
+                            background: linear-gradient(rgba(34, 32, 32, 0.123), rgba(0, 0, 0, 0.123)) padding-box,
+                            linear-gradient(to right, rgba(104, 104, 224, 0.11), rgba(46, 46, 235, 0.123), rgba(19, 187, 131, 0.137)) border-box;
+                            border: 3px solid transparent;
+                            color: white;
+                            border: none;
+                            }
+    
+                            /** ------------------------------------------------ **/
+    
+                            #Get {
+                            border-right: 2px solid black;
+                            padding: 8px 22px 8px 8px;
+                            }
+                            #Get :hover {
+                            background-image: linear-gradient(45deg, #ff82da, #ff1658);
+                            background-size: 100%;
+                            -webkit-background-clip: text;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent; 
+                            -moz-text-fill-color: transparent;
+                            }
+    
+                            /** ------------------------------------------------ **/
+                            
+                            #down {
+                            border-right: 2px solid black;
+                            
+                            }
+                            #down :hover {
+                                background: #ffffff;
+                            background-image: linear-gradient(45deg, #1acc47, #038539);
+                            background-size: 100%;
+                            -webkit-background-clip: text;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent; 
+                            -moz-text-fill-color: transparent;
+                            }
+    
+                            /** ------------------------------------------------ **/
+                            
+                            #Pricing {
+                            border-right: 2px solid black;
+                            padding: 8px 22px 8px 8px;
+                            }
+                            #Pricing :hover {
+                            background-image: linear-gradient(45deg, #3eb8ff, #161aff);
+                            background-size: 100%;
+                            -webkit-background-clip: text;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent; 
+                            -moz-text-fill-color: transparent;
+                            }
+    
+                            /** ------------------------------------------------ **/
+                            
+                            #Help {
+                            padding: 10px 0px 10px 10px;
+                            }
+                            #Help :hover {
+                            background-image: linear-gradient(45deg, #ff0000, #ffa216);
+                            background-size: 100%;
+                            -webkit-background-clip: text;
+                            background-clip: text;
+                            -webkit-text-fill-color: transparent; 
+                            -moz-text-fill-color: transparent;
+                            }
+    
+    
+    
+    
+    #what-is{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .dropdown {
+        font-size: 18px;
+        font-weight:400;
+    }
+    
+    ul li {
+    font-size: 18px;
+    list-style: none;
+    margin: 0 auto;
+    border-left: 2px solid #33006d;
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    }
+    
+    li a {
+    color: black;
+    }
+    
+    li a:hover {
+    color: #33006d;
+    }
+    
+    li:hover {
+    cursor: pointer;
+    }
+    
+    ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    padding-left: 0;
+    left: 0;
+    display: none;
+    background: white;
+    }
+    
+    ul li:hover > ul,
+    ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    min-width: 250px;
+    text-align: left;
+    padding-top: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 4px 3px 5px -1px #0000004f
+    
+    }
+    
+    ul li ul li {
+    clear: both;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    border-style: none;
+    }
+    
+    ul li ul li a:hover {
+    padding-left: 10px;
+    border-left: 2px solid #33006d;
+    transition: all 0.3s ease;
+    }
+    
+    
+    a {
+    text-decoration: none;
+    }
+    
+    
+    
+    ul li ul li a { transition: all 0.3s ease; }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
