@@ -647,51 +647,71 @@ color: white;
 .SEVEN1{
     display: inline-block;
     color: black;
-    background: #590FBF;
+    background-color: #250061;
+    background-position: center;
     border: 10px solid rgba(0, 0, 0, 0.144);
     width: 400px;
-    height: 410px;
-    border-radius: 40px 40px 40px 40px;
-    margin-right: 20px;
+    height: 350px;
+    border-radius: 20px 0px 0px 20px;
+    margin: 10px;
+    box-shadow: rgb(5 5 5) -1px 15px 20px -5px;
 }
+
+
+
+/* :::::::: BOX ICON :::::::: */
 
 .box1x1 {
     flex-direction: row;
 }
 
-.iconSEVEN1 {
-    margin: 0px 15px 15px 15px;
+.iconBOX {
+    margin: 10px;
     display: inline-block;
     color: black;
-    background: #590FBF;
-    border: 10px solid rgba(0, 0, 0, 0.144);
+    background: #4F22F2;
+    border: 5px solid rgba(0, 0, 0, 0.274);
     width: 100px;
     height: 100px;
-    border-radius: 35px 35px 35px 35px;
+    border-radius: 20px;
+    box-shadow: rgb(5 5 5) -1px 15px 20px -5px;
 }
 
-.iconSEVEN2 {
-    margin: 15px;
-    display: inline-block;
-    color: black;
-    background: #590FBF;
-    border: 10px solid rgba(0, 0, 0, 0.144);
-    width: 100px;
-    height: 100px;
-    border-radius: 35px 35px 35px 35px;
+.iconBOX:hover {
+    background: radial-gradient(circle, rgba(128,244,114,1) 0%, rgba(2,255,14,1) 100%);
+    box-shadow: inset rgb(6, 32, 0) 0px 20px 20px -5px;
+    border: 5px solid rgb(30, 255, 0);
 }
 
-.iconSEVEN3 {
-    margin: 15px 15px 0px 15px;
-    display: inline-block;
-    color: black;
-    background: #590FBF;
-    border: 10px solid rgba(0, 0, 0, 0.144);
-    width: 100px;
-    height: 100px;
-    border-radius: 35px 35px 35px 35px;
+.iconBOX > title {
+    display: none;
 }
 
+
+.iconINbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.iconINbox img {
+    width: 70%;
+    height: 70%;
+}
+
+.iconINbox img:hover{
+    filter: blur(2px);
+}
+
+
+
+
+
+
+
+/* :::::::: BOX TEXT :::::::: */
 
 .SEVEN1 h1 {
     padding: 50px 0px 10px 0px;
@@ -823,7 +843,6 @@ color: white;
     font-weight: 300;
     display: inline-block;
     font-size: 20px;
-    
     color: #010626;
 }
 
