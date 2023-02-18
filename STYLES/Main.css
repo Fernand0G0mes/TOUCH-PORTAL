@@ -636,13 +636,12 @@ color: white;
 .SEVEN {
 
     display: flex;
-    height: 450px;
+    height: 400px;
     background: #1d1d1d;
     margin: 0 auto;
-    padding: 100px;
+    padding: 50px;
     text-align: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .SEVEN1{
@@ -703,7 +702,9 @@ color: white;
 }
 
 .iconINbox img:hover{
-    filter: blur(2px);
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1) blur(1px);
+
 }
 
 
@@ -720,7 +721,7 @@ color: white;
     align-items: center;
     justify-content: center;
     font-weight: 900;
-    margin-top: 40px;
+    margin-top: 15px;
     font-size: 40px;
     color: #ffffff; 
 }
@@ -729,97 +730,60 @@ color: white;
     margin: 20px auto 0px auto;
     width: 300px;
     height: 300px;
-    
-    
 }
 
 .lineh1seven {
     text-align: center;
     display: inline-block;
-    border-bottom: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid #130030;
 }
 
 
 .SEVEN1 p {
     text-align: center ;
-    font-weight: 300;
+    font-weight: 200;
     display: inline-block;
     font-size: 20px;
     color: white;
 }
 
+/* :::::::: SEVEN222222 :::::::: */
 
-
-
-/* :::::::: SEVEN2 :::::::: */
 
 .SEVEN2 {
     display: flex;
-    height: 450px;
-    background: #111111;
+    flex-direction: row-reverse;
+    height: 800px;
+    background: #000000;
     margin: 0 auto;
-    padding: 100px;
+    padding: 50px;
     text-align: center;
-    justify-content: center;
+    justify-content: center; 
 }
 
-.SEVEN2TEXT{
+.SEVEN22{
     display: inline-block;
     color: black;
-    background: #590FBF;
+    background-color: #250061;
+    background-position: center;
     border: 10px solid rgba(0, 0, 0, 0.144);
     width: 400px;
-    height: 410px;
-    border-radius: 40px 40px 40px 40px;
-    margin-right: 20px;
-}
-
-.box2x2 {
-    flex-direction: row;
-}
-
-.iconSEVEN222 {
-    margin: 0px 15px 15px 15px;
-    display: inline-block;
-    color: black;
-    background: #590FBF;
-    border: 10px solid rgba(0, 0, 0, 0.144);
-    width: 100px;
-    height: 100px;
-    border-radius: 35px 35px 35px 35px;
-}
-
-.iconSEVEN2 {
-    margin: 15px;
-    display: inline-block;
-    color: black;
-    background: #590FBF;
-    border: 10px solid rgba(0, 0, 0, 0.144);
-    width: 100px;
-    height: 100px;
-    border-radius: 35px 35px 35px 35px;
-}
-
-.iconSEVEN3 {
-    margin: 15px 15px 0px 15px;
-    display: inline-block;
-    color: black;
-    background: #590FBF;
-    border: 10px solid rgba(0, 0, 0, 0.144);
-    width: 100px;
-    height: 100px;
-    border-radius: 35px 35px 35px 35px;
+    height: 741px;
+    border-radius: 0px 20px 20px 0px;
+    margin: 10px;
+    box-shadow: rgb(5 5 5) -1px 15px 20px -5px;
 }
 
 
-.SEVEN1 h1 {
-    padding: 50px 0px 10px 0px;
+/* :::::::: BOX TEXT :::::::: */
+
+.SEVEN22 h1 {
+    padding: 130px 0px 10px 0px;
     text-align: center;
     align-items: center;
     justify-content: center;
     font-weight: 900;
-    margin-top: 40px;
-    font-size: 40px;
+    font-size: 50px;
     color: #ffffff; 
 }
 
@@ -827,73 +791,19 @@ color: white;
     margin: 20px auto 0px auto;
     width: 300px;
     height: 300px;
-    
-    
 }
 
 .lineh1seven {
     text-align: center;
     display: inline-block;
-    border-bottom: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid #130030;
 }
 
 
-.SEVEN1 p {
+.SEVEN22 p {
     text-align: center ;
-    font-weight: 300;
+    font-weight: 200;
     display: inline-block;
     font-size: 20px;
-    color: #010626;
-}
-
-
-/* :::::::: SEVEN3 :::::::: */
-.SEVEN3 {
-text-align: center;
-
-}
-
-.SEVEN3 h1 {
-
-    
     color: white;
-font-weight: 900;
-margin-top: 60px;
-display: inline-block;
-font-size: 50px;
 }
-
-.SEVEN3 p {
-    color: white;
-font-weight: 200;
-display: inline-block;
-font-size: 20px;
-border-bottom: 3px solid black;
-padding: 0px 30px 10px 30px;
-}
-
-
-/* :::::::: SEVEN4 :::::::: */
-.SEVEN4 {
-text-align: center;
-}
-
-.SEVEN4 h1 {
-    color: white;
-font-weight: 900;
-margin-top: 60px;
-display: inline-block;
-font-size: 50px;
-}
-
-.SEVEN4 p {
-    color: white;
-font-weight: 200;
-display: inline-block;
-font-size: 20px;
-border-bottom: 3px solid black;
-padding: 0px 30px 10px 30px;
-}
-
-
-
