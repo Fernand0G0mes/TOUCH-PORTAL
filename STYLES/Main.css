@@ -637,7 +637,7 @@ color: white;
 
     display: flex;
     height: 400px;
-    background: #1d1d1d;
+    background: linear-gradient(143deg, rgba(35,0,93,1) 16%, rgba(12,0,31,1) 16%, rgba(35,0,93,1) 76%, rgba(19,0,51,1) 76%);
     margin: 0 auto;
     padding: 50px;
     text-align: center;
@@ -647,9 +647,9 @@ color: white;
 .SEVEN1{
     display: inline-block;
     color: black;
-    background-color: #250061;
+    background: linear-gradient(-143deg, rgba(35,0,93,1) 16%, #0c001f 16%, rgba(35,0,93,1) 76%, rgba(19,0,51,1) 76%);
     background-position: center;
-    border: 10px solid rgba(0, 0, 0, 0.144);
+    border: 10px solid #18003b;
     width: 400px;
     height: 350px;
     border-radius: 20px 0px 0px 20px;
@@ -669,8 +669,9 @@ color: white;
     margin: 10px;
     display: inline-block;
     color: black;
-    background: #4F22F2;
-    border: 5px solid rgba(0, 0, 0, 0.274);
+    background: linear-gradient(0deg, #0c001f 4%, #23005d 9%, #130033 89%, #23005d 94%);
+    background-position: center;
+    border: 5px solid #00000096;
     width: 100px;
     height: 100px;
     border-radius: 20px;
@@ -678,9 +679,9 @@ color: white;
 }
 
 .iconBOX:hover {
-    background: radial-gradient(circle, rgba(128,244,114,1) 0%, rgba(2,255,14,1) 100%);
+    background: linear-gradient(0deg, rgba(0,201,10,1) 4%, rgba(128,244,114,1) 9%, rgba(128,244,114,1) 89%, rgba(0,201,10,1) 90%);
     box-shadow: inset rgb(6, 32, 0) 0px 20px 20px -5px;
-    border: 5px solid rgb(30, 255, 0);
+    border: 5px solid rgba(29, 250, 0, 0.089);
 }
 
 .iconBOX > title {
@@ -697,13 +698,14 @@ color: white;
 }
 
 .iconINbox img {
-    width: 70%;
-    height: 70%;
+    opacity: 60%;
+    width: 60%;
+    height: 60%;
 }
 
 .iconINbox img:hover{
-  -webkit-filter: brightness(0) invert(1);
-  filter: brightness(0) invert(1) blur(1px);
+color: black;
+opacity: 100%;
 
 }
 
@@ -754,7 +756,7 @@ color: white;
     display: flex;
     flex-direction: row-reverse;
     height: 800px;
-    background: #000000;
+    background: linear-gradient(-143deg, rgba(35,0,93,1) 16%, rgba(12,0,31,1) 16%, rgba(35,0,93,1) 76%, rgba(19,0,51,1) 76%);
     margin: 0 auto;
     padding: 50px;
     text-align: center;
@@ -764,9 +766,9 @@ color: white;
 .SEVEN22{
     display: inline-block;
     color: black;
-    background-color: #250061;
+    background: linear-gradient(153deg, rgba(35,0,93,1) 21%, rgba(12,0,31,1) 21%, rgba(35,0,93,1) 76%, rgba(19,0,51,1) 76%);
     background-position: center;
-    border: 10px solid rgba(0, 0, 0, 0.144);
+    border: 10px solid #18003b;
     width: 400px;
     height: 741px;
     border-radius: 0px 20px 20px 0px;
@@ -778,7 +780,7 @@ color: white;
 /* :::::::: BOX TEXT :::::::: */
 
 .SEVEN22 h1 {
-    padding: 130px 0px 10px 0px;
+    padding: 230px 0px 0px 0px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -787,20 +789,77 @@ color: white;
     color: #ffffff; 
 }
 
+
+.SEVEN22 h2 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff; 
+}
+
 .divP {
     margin: 20px auto 0px auto;
     width: 300px;
     height: 300px;
+    
 }
-
-.lineh1seven {
-    text-align: center;
-    display: inline-block;
-    border-bottom: 5px solid #130030;
-}
-
 
 .SEVEN22 p {
+    border-top: 5px solid #130030;
+    padding: 20px;
+    text-align: center ;
+    font-weight: 200;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+}
+
+/* :::::::: SEVEN33333333333 :::::::: */
+
+.SEVEN3 {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background: linear-gradient(153deg, rgba(35,0,93,1) 16%, rgba(12,0,31,1) 16%, rgba(35,0,93,1) 76%, rgba(19,0,51,1) 76%);
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    justify-content: center; 
+}
+
+.SEVEN33{
+    display: inline-block;
+    color: black;
+    background: linear-gradient(-153deg, rgba(35,0,93,1) 16%, rgba(12,0,31,1) 16%, rgba(35,0,93,1) 76%, rgba(19,0,51,1) 76%);
+    background-position: center;
+    border: 10px solid #18003b;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px 0px 0px 20px;
+    margin: 10px;
+    box-shadow: rgb(5 5 5) -1px 15px 20px -5px;
+}
+
+.SEVEN33 h1 {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    margin-top: 15px;
+    font-size: 50px;
+    color: #ffffff; 
+}
+
+.SEVEN33 h2 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff; 
+}
+
+
+.SEVEN33 p {
+    padding: 20px;
+    border-top: 5px solid #130030;
     text-align: center ;
     font-weight: 200;
     display: inline-block;
