@@ -258,28 +258,29 @@ font-weight: 800;
 display: flex;
 justify-content: center;
 background:  linear-gradient(90deg, #3719bd, #181063);
-height: 750px;
+height: 700px;
 
 }
 
 
 
 .DownloadsAllContainer {
-    margin-top: 170px;
+    display: inline-block;
     text-align: center;
 }
 
-#down-four {
-    position: absolute;
+.down-four {
+    display: inline-block;
     color: white;
     font-weight: 800;
     font-size: 50px;
-    padding: 0px 345px 10px 345px;
     border-bottom: 3px solid white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 10550px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 310px;
+    padding-right: 310px;
+
 }
 
 .DownloadsDropDownContainer {
@@ -290,7 +291,24 @@ height: 750px;
     padding: 20px;
     margin-bottom: 40px;
     box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.541);
+    transition: all 0.7s ease;
 }
+
+
+
+.DownloadsDropDownContainer:hover {
+    width: 920px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 80px;
+    padding: 25px;
+    transition: 0.9s;
+    animation: alternate-reverse;
+    margin-bottom: 40px;
+    box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.541);
+}
+
+
 
 .DownloadsCurrentVersionContainer {
     font-size: 18px;
@@ -343,6 +361,7 @@ height: 750px;
     padding-right: 20px;
     vertical-align: top;
     margin-top: 4px;
+    transition: all 0.3s ease;
 }
                 
 .DownloadsButton:hover {
@@ -364,6 +383,8 @@ height: 750px;
 .FIVE {
 animation: colori 20s infinite;
 height: 700px;
+padding-top: 15px;
+
 }
 
 @keyframes colori{
@@ -404,13 +425,8 @@ height: 700px;
 
 /*......Basic structure of slider.........*/
 .slideshow{
-    margin-top: 10120px;
     width: 1850px;
     height: 650px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
     overflow: hidden;
     border: 15px solid rgba(0, 0, 0, 0);
     box-shadow: 0px 15px 45px #0000008a;
@@ -470,7 +486,7 @@ height: 700px;
 
 .SIX {
 height: 850px;
-background-image: linear-gradient(45deg, #0d0318, 50%, #4c0094d0),
+background-image: linear-gradient(45deg, #370090e7, 40%, #150037),
 url(../IMG/rocket.asvg);
 background-size: contain;
 background-repeat: no-repeat;
@@ -506,7 +522,7 @@ transform: translateX(-50%);
 font-size: 40px;
 font-weight: 900;
 margin-top: -10px;
-border-bottom: 3px solid rgb(42, 9, 104);;
+border-bottom: 3px solid #150037;
 padding: 0px 295px 0px 140px;
 color: rgb(241, 238, 247);
 }
@@ -521,7 +537,7 @@ transform: translateX(-50%);
 margin-top: -170px;
 font-size: 280px;
 font-weight: 900;
-color: #580fbfcc;
+color: #370090c7;
 text-shadow: rgba(0, 0, 0, 0.24) 8px 7px 4px;
 
 }
@@ -558,6 +574,7 @@ color: white;
     width: 300px;
     height: 500px;
     border-radius: 20px 0px 0px 20px;
+    transition: all 0.7s ease;
 }
 
 .box2 {
@@ -566,6 +583,7 @@ color: white;
     background: rgb(255, 255, 255);
     width: 300px;
     height: 500px;
+    transition: all 0.7s ease;
 }
 
 .box3 {
@@ -575,6 +593,7 @@ color: white;
     width: 300px;
     height: 500px;
     border-radius: 0px 20px 20px 0px;
+    transition: all 0.7s ease;
 }
 
 .box1:hover {
@@ -583,7 +602,7 @@ color: white;
     padding: 10px;
     margin: 5px;
     display: inline-block;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(195,151,255,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, #af78fc 100%);
     width: 300px;
     height: 500px;
     border-radius: 20px 20px 20px 20px;
@@ -669,13 +688,13 @@ color: white;
     margin: 10px;
     display: inline-block;
     color: black;
-    background: linear-gradient(0deg, #0c001f 4%, #23005d 9%, #130033 89%, #23005d 94%);
+    background: linear-gradient(0deg, rgba(25,0,66,1) 9%, rgba(96,0,255,1) 13%, rgba(21,0,55,1) 87%, rgba(64,0,170,1) 91%);
     background-position: center;
-    border: 5px solid #00000096;
+    border: 5px solid #0d0022;
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    box-shadow: rgb(5 5 5) -1px 15px 20px -5px;
+    box-shadow: rgb(5 5 5) 0px 10px 8px -5px;
 }
 
 .iconBOX:hover {
@@ -698,7 +717,7 @@ color: white;
 }
 
 .iconINbox img {
-    opacity: 60%;
+    opacity: 80%;
     width: 60%;
     height: 60%;
 }
