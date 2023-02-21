@@ -5,7 +5,7 @@
   scroll-behavior: smooth;
 }
 
-/* ....................:::::::: DIVISION ::::::::.................... */
+/*  DIVISION --------------------------------------------------------------------------- */
 
 #divICON {
   position: absolute;
@@ -30,7 +30,7 @@
   transform: translate(-50%, -50%);
 }
 
-/* ..... MAIN .................................................................. */
+/* ONE - HOME --------------------------------------------------------------------------- */
 
 article {
   position: relative;
@@ -108,7 +108,7 @@ article {
   margin-bottom: 35px;
 }
 
-/* ....................:::::::: THE MACRO MULTI ACTION REMOTE CONTROL ::::::::.................... */
+/* ... TWO - THE MACRO ------------------------------------------------------------------ */
 
 .TWO {
   display: flex;
@@ -179,7 +179,7 @@ span > div > h1 {
   margin: 615px 0px 0px 30px;
 }
 
-/* ....................:::::::: MULTI ACTION MACRO BUTTONS ::::::::.................... */
+/* THREE - MULTI MACRO ------------------------------------------------------------------ */
 
 .THREE {
   position: relative;
@@ -211,7 +211,7 @@ span > div > h1 {
   clip-path: inset(0 0 1044px 0px);
 }
 
-/* ....................:::::::: PAG 4 - DOWNLOADS ::::::::.................... */
+/*  DOWNLOADS ----------------------------------------------------------------------------- */
 
 .FOUR {
   display: flex;
@@ -314,8 +314,8 @@ span > div > h1 {
 }
 
 .DownloadsButton:hover {
-  border: 2px solid rgba(0, 138, 115, 0.589);
-  background-color: rgb(0, 187, 115);
+  border: 2px solid #008a7396;
+  background-color: #00bb73;
   box-shadow: inset 0px 6px 10px 1px rgb(1, 53, 8);
   color: rgb(255, 255, 255);
   border-radius: 8px;
@@ -324,7 +324,7 @@ span > div > h1 {
   vertical-align: top;
 }
 
-/* ....................:::::::: PAG 5 ::::::::.................... */
+/* SLIDE --------------------------------------------------------------------------------- */
 
 .FIVE {
   position: relative;
@@ -438,7 +438,7 @@ span > div > h1 {
   }
 }
 
-/* ....................:::::::: PAG 6 - GET STARTED WITH ::::::::.................... */
+/* SIX - GET STARTED WITH ---------------------------------------------------------------------- */
 
 .SIX {
   height: 850px;
@@ -480,6 +480,7 @@ span > div > h1 {
   padding: 0px 295px 0px 140px;
   color: rgb(241, 238, 247);
 }
+
 
 /* :::::::: NUMBER BOX :::::::: */
 .get3 {
@@ -559,6 +560,7 @@ span > div > h1 {
   box-shadow: rgba(0, 0, 0, 0.959) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
 .box2:hover {
   box-shadow: rgba(17, 12, 46, 0.658) 0px 48px 60px 0px;
   transition: 0.8s;
@@ -576,6 +578,7 @@ span > div > h1 {
   box-shadow: rgba(0, 0, 0, 0.959) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
 .box3:hover {
   box-shadow: rgba(17, 12, 46, 0.658) 0px 48px 60px 0px;
   transition: 0.8s;
@@ -594,59 +597,9 @@ span > div > h1 {
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
-
-/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
-
-/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
-
-/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
-
-/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
-
-/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
-
-/* ....................:::::::: PAG 7 - WORKS WITH ::::::::.................... */
-
-/* :::::::: SEVEN1 :::::::: */
-
-.SEVEN {
-  display: flex;
-  height: 400px;
-  background: linear-gradient(
-    143deg,
-    rgba(35, 0, 93, 1) 16%,
-    rgba(12, 0, 31, 1) 16%,
-    rgba(35, 0, 93, 1) 76%,
-    rgba(19, 0, 51, 1) 76%
-  );
-  margin: 0 auto;
-  padding: 50px;
-  text-align: center;
-  justify-content: center;
-}
-
-.SEVEN1 {
-  display: inline-block;
-  color: black;
-  background: linear-gradient(
-    -143deg,
-    rgba(35, 0, 93, 1) 16%,
-    #0c001f 16%,
-    rgba(35, 0, 93, 1) 76%,
-    rgba(19, 0, 51, 1) 76%
-  );
-  background-position: center;
-  border: 10px solid #18003b;
-  width: 400px;
-  height: 350px;
-  border-radius: 20px 0px 0px 20px;
-  margin: 10px;
-  box-shadow: rgb(5 5 5) -1px 15px 20px -5px;
-}
+/* SEVEN - WORKS WITH ----------------------------------------------------------------- */
 
 /* :::::::: BOX ICON :::::::: */
-
 .box1x1 {
   flex-direction: row;
 }
@@ -705,7 +658,44 @@ span > div > h1 {
   opacity: 100%;
 }
 
-/* :::::::: BOX TEXT :::::::: */
+
+/* :::::::: SEVEN1 :::::::: */
+.SEVEN {
+  display: flex;
+  height: 400px;
+  background: linear-gradient(
+    143deg,
+    rgba(35, 0, 93, 1) 16%,
+    rgba(12, 0, 31, 1) 16%,
+    rgba(35, 0, 93, 1) 76%,
+    rgba(19, 0, 51, 1) 76%
+  );
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.SEVEN1 {
+  display: inline-block;
+  color: black;
+  background: linear-gradient(
+    -143deg,
+    rgba(35, 0, 93, 1) 16%,
+    #0c001f 16%,
+    rgba(35, 0, 93, 1) 76%,
+    rgba(19, 0, 51, 1) 76%
+  );
+  background-position: center;
+  border: 10px solid #18003b;
+  width: 400px;
+  height: 350px;
+  border-radius: 20px 0px 0px 20px;
+  margin: 10px;
+  box-shadow: rgb(5 5 5) -1px 15px 20px -5px;
+}
+
+/* :::::::: BOX TEXT - SEVEN - 1 :::::::: */
 
 .SEVEN1 h1 {
   padding: 50px 0px 10px 0px;
@@ -738,7 +728,7 @@ span > div > h1 {
   color: white;
 }
 
-/* :::::::: SEVEN222222 :::::::: */
+/* :::::::: SEVEN2 :::::::: */
 
 .SEVEN2 {
   display: flex;
@@ -776,7 +766,7 @@ span > div > h1 {
   box-shadow: rgb(5 5 5) -1px 15px 20px -5px;
 }
 
-/* :::::::: BOX TEXT :::::::: */
+/* :::::::: BOX TEXT - SEVEN - 2 :::::::: */
 
 .SEVEN22 h1 {
   padding: 230px 0px 0px 0px;
@@ -810,7 +800,7 @@ span > div > h1 {
   color: white;
 }
 
-/* :::::::: SEVEN33333333333 :::::::: */
+/* :::::::: SEVEN3 :::::::: */
 
 .SEVEN3 {
   display: flex;
@@ -875,8 +865,102 @@ span > div > h1 {
   color: white;
 }
 
-/* ....................:::::::: FOOTER ::::::::.................... */
 
+
+/* CREATE AND SHARE ----------------------------------------------------------------- */
+#CreateAndShare{
+  height: 350px;
+  text-align: center;
+  background-color: #181063;
+}
+
+/* :::::::: H1 / p :::::::: */
+.CreatHeader {
+  margin-top: 40px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.CreatHeader h1 {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+.CreatHeader p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: white;
+  font-weight: 100;
+}
+
+/* :::::::: SEARCH :::::::: */
+.searchCreate {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.searchCreate input {
+  width: 400px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 3px solid #bbbbbb;
+}
+.searchCreate button {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #18003b;
+  background-color: #340b8c;
+  color: white;
+  font-weight: 800;
+}
+
+/* :::::::: SUBMIT :::::::: */
+.submit button{
+  width: 509px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 3px solid #008a7396;
+  background-color: #00bb73;
+}
+
+/* POPULAR PAGES ----------------------------------------------------------------- */
+.popularpages {
+  display: flex;
+  height: 500px;
+  background-color: #00bb73;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.popularpagesALL {
+  display: inline-block;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.popularpage1 {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  background-color: #340b8c;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+/* ....................:::::::: FOOTER ::::::::.................... */
 footer {
   text-align: center;
   height: 200px;
