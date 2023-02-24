@@ -1199,7 +1199,7 @@ span > div > h1 {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  height: 1050px;
+  height: 950px;
   background-color: #181818;
   color: white;
   transition: height 0.5s ease;
@@ -1207,7 +1207,7 @@ span > div > h1 {
 
 #upgrades.expand {
   /* JS-EXPANDIR */
-  height: 1580px;
+  height: 2200px;
 }
 
 /* :::::::: HEADER :::::::: */
@@ -1518,7 +1518,8 @@ iframe {
 
 .collapsible input:checked ~ .collapsible-text {
   /* style / altura */
-  max-height: 510px;
+  height: 1250px;
+  max-width: 1000px;
   padding-bottom: 20px;
   background: #00bb73;
   opacity: 1;
@@ -1527,17 +1528,47 @@ iframe {
   border-radius: 0px 0px 20px 20px;
 }
 
+.proX2{
+  display: flex;
+}
+
 .collapsible-text h2 {
   margin-bottom: 10px;
   padding: 15px 15px 0;
   color: #ffffff;
 }
 
+.collapsible-text p strong {
+  text-align: justify;
+  width: 300px;
+  height: 400px;
+  padding-left: 25px;
+
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+
 .collapsible-text p {
+  text-align: justify;
+  width: 300px;
+  height: 400px;
+  padding-left: 25px;
+
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.collapsible-text img{
+  border-radius: 70px;
+  margin-top: 12px;
   padding-left: 25px;
   padding-right: 25px;
-  margin-bottom: 20px;
-  color: #ffffff;
+  margin-bottom: 130px;
 }
 
 /* DESIGN .................... */
