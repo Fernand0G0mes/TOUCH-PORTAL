@@ -1433,6 +1433,22 @@ iframe {
   margin-right: 15px;
 }
 
+.collapsible span {
+  position: relative;
+  font-weight: 600;
+  font-size: 17px;
+  background: #00ff55;
+  color: #000000;
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px;
+  width: 240px;
+  border-radius: 10px 10px 0px 0px;
+  border: 4px solid black;
+  z-index: 4;
+  margin-right: 15px;
+}
+
 .collapsible label b {
   margin-right: 50px;
 }
@@ -1447,15 +1463,44 @@ iframe {
   transition: all 0.7s ease;
   background: url(../IMG/Icon/downward-arrow-24.png) no-repeat 0 0;
   background-size: 30px;
-}
-
-.collapsible input:checked + label:after {
   transform: rotate(180deg);
 }
 
+.LABELL:after { 
+  position: absolute;
+  right: 25px;
+  bottom: 8px;
+  width: 30px;
+  height: 30px;
+  background: url(../IMG/Icon/downward-arrow-24.png) no-repeat 0 0;
+  background-size: 30px;
+  transform: rotate(0deg) !important;
+}
+
+.LABELL{
+  background-color: #bbff01 !important;
+}
+
+.collapsible span:after {
+  content: "";
+  position: absolute;
+  right: 25px;
+  bottom: 8px;
+  width: 30px;
+  height: 30px;
+  transition: all 0.7s ease;
+  background: url(../IMG/Icon/downward-arrow-24.png) no-repeat 0 0;
+  background-size: 30px;
+  transform: rotate(180deg);
+}
+
+.collapsible input:checked + label:after {
+  transform: rotate(0deg);
+}
+
+
 .collapsible-text {
   overflow: hidden;
-  border-radius: 10px;
   line-height: 1.4;
   position: relative;
   top: -100%;
@@ -1466,29 +1511,20 @@ iframe {
 /* BOX QUE APARECE AO CLICAR */
 .collapsible {
   /* largura */
-  max-width: 1020px;
+  max-width: 1000px;
   overflow: hidden;
   font-weight: 500;
 }
 
 .collapsible input:checked ~ .collapsible-text {
   /* style / altura */
-  height: 550px;
+  max-height: 510px;
   padding-bottom: 20px;
-  background: linear-gradient(
-    143deg,
-    #000000 7%,
-    #017347 7.2%,
-    #00bb73 21%,
-    #017347 21.2%,
-    #00bb73 86%,
-    #017347 86.2%,
-    #00bb73 90%,
-    #000000 90.2%
-  );
+  background: #00bb73;
   opacity: 1;
   top: 0;
   border: 5px solid black;
+  border-radius: 0px 0px 20px 20px;
 }
 
 .collapsible-text h2 {
@@ -1500,6 +1536,7 @@ iframe {
 .collapsible-text p {
   padding-left: 25px;
   padding-right: 25px;
+  margin-bottom: 20px;
   color: #ffffff;
 }
 
@@ -1550,3 +1587,6 @@ footer h1 {
   display: inline-block;
   margin-top: 40px;
 }
+
+
+
