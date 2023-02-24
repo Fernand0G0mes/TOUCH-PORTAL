@@ -1523,7 +1523,7 @@ iframe {
   background: #00bb73;
   opacity: 1;
   top: 0;
-  border: 5px solid black;
+  box-shadow: #00000033 0px -10px 0px inset;
   border-radius: 0px 0px 20px 20px;
 }
 
