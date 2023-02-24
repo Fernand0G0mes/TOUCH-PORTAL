@@ -143,6 +143,7 @@ span > div > h1 {
   font-weight: 900;
   font-size: 40px;
 }
+
 .TWO > div > h2 {
   font-size: 25px;
   font-weight: 300;
@@ -174,6 +175,7 @@ span > div > h1 {
   position: absolute;
   margin: 615px 0px 0px -325px;
 }
+
 .Slider {
   position: absolute;
   margin: 615px 0px 0px 30px;
@@ -337,33 +339,43 @@ span > div > h1 {
   0% {
     background-color: #590fbf;
   }
+
   10% {
     background-color: #340b8c;
   }
+
   20% {
     background-color: #4f22f2;
   }
+
   30% {
     background-color: #010b40;
   }
+
   40% {
     background-color: #590fbf;
   }
+
   50% {
     background-color: #340b8c;
   }
+
   60% {
     background-color: #4f22f2;
   }
+
   70% {
     background-color: #010b40;
   }
+
   80% {
     background-color: #590fbf;
   }
+
   90% {
     background-color: #340b8c;
   }
+
   100% {
     background-color: #4f22f2;
   }
@@ -433,6 +445,7 @@ span > div > h1 {
   from {
     opacity: 0.4;
   }
+
   to {
     opacity: 1;
   }
@@ -468,6 +481,7 @@ span > div > h1 {
   font-weight: 200;
   color: rgb(245, 243, 248);
 }
+
 .get2 {
   display: inline-block;
   position: relative;
@@ -500,17 +514,21 @@ span > div > h1 {
   color: rgb(47, 2, 129);
   margin-top: 50px;
 }
+
 .boxall h2 {
   margin-top: 30px;
 }
+
 .boxall img {
   margin-top: 30px;
   width: 30%;
 }
+
 .boxall p {
   margin-top: 30px;
   color: rgb(42, 0, 77);
 }
+
 .boxall h3 {
   color: white;
 }
@@ -873,12 +891,14 @@ span > div > h1 {
   align-items: center;
   text-align: center;
 }
+
 .CreatHeader h1 {
   display: inline-block;
   font-size: 50px;
   font-weight: 900;
   color: white;
 }
+
 .CreatHeader p {
   margin-bottom: 20px;
   font-size: 17px;
@@ -895,12 +915,14 @@ span > div > h1 {
   margin-bottom: 10px;
   margin-top: 20px;
 }
+
 .searchCreate input {
   width: 400px;
   padding: 8px;
   border-radius: 10px;
   border: 3px solid #5101c9;
 }
+
 .searchCreate button {
   cursor: pointer;
   padding: 9px;
@@ -922,6 +944,7 @@ span > div > h1 {
   font-size: 20px;
   color: #340b8c;
 }
+
 .submit button:hover {
   cursor: pointer;
   transition: 0.7s;
@@ -968,6 +991,7 @@ span > div > h1 {
   margin-left: 40px;
   box-shadow: #000000 0px 25px 20px -10px;
 }
+
 .popularpage1:hover {
   border-radius: 20px;
   padding: 5px;
@@ -1014,6 +1038,7 @@ span > div > h1 {
   border-radius: 0px 0px 10px 10px;
   box-shadow: inset -11px -10px 14px -5px #000000a8;
 }
+
 .descPop h2 {
   text-align: justify;
   color: #ffffff;
@@ -1036,12 +1061,14 @@ span > div > h1 {
   text-align: center;
   justify-content: center;
 }
+
 .statsPage p {
   margin-top: 5px;
   color: white;
   text-align: center;
   justify-content: center;
 }
+
 .supported h1 {
   font-size: 10px;
 }
@@ -1086,6 +1113,7 @@ span > div > h1 {
   flex-direction: column;
   padding-top: 25px;
 }
+
 .popularIcon {
   margin-top: 10px;
   margin-bottom: 7px;
@@ -1111,6 +1139,7 @@ span > div > h1 {
   );
   box-shadow: #000000 0px 45px 20px -20px;
 }
+
 #popIconH1ptop p {
   color: #23005d;
   text-align: center;
@@ -1119,6 +1148,7 @@ span > div > h1 {
   font-weight: 700;
   font-size: 15px;
 }
+
 #popIconH1ptop h1 {
   color: white;
   text-align: center;
@@ -1126,6 +1156,7 @@ span > div > h1 {
   font-size: 20px;
   margin-bottom: 10px;
 }
+
 /* :::::::: BOX DESC :::::::: */
 .descPopIcon {
   display: inline-block;
@@ -1135,6 +1166,7 @@ span > div > h1 {
   border-radius: 0px 0px 10px 10px;
   box-shadow: inset -11px -10px 14px -5px black;
 }
+
 .descPopIcon h2 {
   text-align: justify;
   color: #ffffff;
@@ -1142,6 +1174,7 @@ span > div > h1 {
   font-weight: 300;
   padding: 14px;
 }
+
 .lineVertIcon {
   background-color: #130030;
   height: 40px;
@@ -1160,11 +1193,6 @@ span > div > h1 {
 }
 
 
-
-
-
-
-
 /* TOUCH PORTAL PRO ----------------------------------------------------------------- */
 #upgrades {
   display: flex;
@@ -1178,7 +1206,8 @@ span > div > h1 {
 }
 
 #upgrades.expand {
-  height: 1580px; /* JS-EXPANDIR */
+  /* JS-EXPANDIR */
+  height: 1580px;
 }
 
 /* :::::::: HEADER :::::::: */
@@ -1188,11 +1217,13 @@ span > div > h1 {
   flex-direction: column;
   align-items: center;
 }
+
 .upgradeHeader h1 {
-  color: #00bb73;
+  color: #00ff55;
   font-size: 50px;
   font-weight: 900;
 }
+
 .upgradeHeader p {
   font-weight: 200;
   font-size: 20px;
@@ -1201,11 +1232,11 @@ span > div > h1 {
 /* :::::::: BOX :::::::: */
 .proBox {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 50px;
   padding: 0px 20px 20px 0px;
   width: 1000px;
-  height: 735px;
+  height: 690px;
   background: linear-gradient(
     -143deg,
     #000000 7%,
@@ -1222,30 +1253,32 @@ span > div > h1 {
   box-shadow: #000000 0px 45px 20px -20px;
   z-index: 3;
 }
+
 /*  BOX HEADER */
 .proupgrade {
   background-color: #000000;
   border-radius: 0px 0px 20px 20px;
   width: 450px;
-  height: 80px;
+  height: 60px;
   display: inline-block;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
+
 .proupgrade h1 {
   color: #00ff55;
   font-size: 40px;
   font-weight: 900;
   justify-content: center;
-  margin-top: 10px;
 }
+
 .proupgradeP p {
   color: #000000;
   font-size: 15px;
   font-weight: 900;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 5px;
   font-weight: 400;
   margin-bottom: 5px;
 }
@@ -1256,6 +1289,7 @@ span > div > h1 {
   flex-direction: row;
   justify-content: center;
 }
+
 .boxSUCH {
   background-color: #00ff55;
   margin-left: 1px;
@@ -1263,6 +1297,7 @@ span > div > h1 {
   border-radius: 10px;
   border: 3px solid rgba(0, 0, 0, 0.575);
 }
+
 .such h1 {
   font-size: 14px;
   color: #000000c4;
@@ -1270,12 +1305,13 @@ span > div > h1 {
 
 /*  VIDEO */
 .barVideo {
-  margin-top: 20px;
+  margin-top: 8px;
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 iframe {
   position: relative;
   z-index: 0;
@@ -1284,6 +1320,7 @@ iframe {
   width: 700px;
   height: 394px;
 }
+
 .imgVIDEO1 img {
   position: absolute;
   z-index: 1;
@@ -1292,6 +1329,7 @@ iframe {
   right: 730px;
   top: 20px;
 }
+
 .imgVIDEO2 img {
   position: absolute;
   z-index: 1;
@@ -1312,6 +1350,7 @@ iframe {
   box-shadow: #09ff00 0px 20px 38px -15px, #bbff00c5 0px 20px 38px -15px,
     #000000 0px 15px 12px;
 }
+
 .oneTIME h1 {
   margin-top: 10px;
   align-items: center;
@@ -1319,6 +1358,7 @@ iframe {
   color: #00ff55;
   font-size: 25px;
 }
+
 .oneTIME h1 sup {
   font-size: 12px;
 }
@@ -1347,26 +1387,26 @@ iframe {
   height: 70px;
   left: 830px;
 }
+
 .pricePRO h1 {
   align-items: center;
   justify-content: center;
   font-size: 35px;
   color: #00ff55;
 }
+
 .pricePRO h1 sup {
   font-size: 15px;
 }
+
 .pricePRO h2 {
   padding-top: 8px;
   font-size: 13px;
 }
 
-
-
-
 /* :::::::: COLLAPSIBLE ::::::::.................... */
 
-.wrapper{
+.wrapper {
   display: flex;
   margin-top: -109px;
   justify-content: center;
@@ -1381,80 +1421,88 @@ iframe {
   position: relative;
   font-weight: 600;
   font-size: 17px;
-  background: #00ff55 ;
+  background: #00ff55;
   color: #000000;
   display: inline-block;
-  margin-bottom: 20px;
   cursor: pointer;
   padding: 12px;
-  width: 300px;
+  width: 240px;
   border-radius: 10px 10px 0px 0px;
   border: 4px solid black;
   z-index: 4;
+  margin-right: 15px;
 }
 
-.collapsible label:after{
+.collapsible label b {
+  margin-right: 50px;
+}
+
+.collapsible label:after {
   content: "";
   position: absolute;
   right: 25px;
-  top: 10px;
-  width: 28px;
-  height: 28px;
+  bottom: 8px;
+  width: 30px;
+  height: 30px;
   transition: all 0.7s ease;
-  background: url(../IMG/Icon/downward-arrow-24.png) no-repeat ;
-  background-size: 28px;
+  background: url(../IMG/Icon/downward-arrow-24.png) no-repeat 0 0;
+  background-size: 30px;
 }
 
-.collapsible input:checked + label:after{
+.collapsible input:checked + label:after {
   transform: rotate(180deg);
-
 }
 
 .collapsible-text {
-overflow: hidden;
-border-radius: 10px;
-line-height: 1.4;
-position: relative;
-top: -100%;
-opacity: 0.5;
-transition: all 0.7s ease;
+  overflow: hidden;
+  border-radius: 10px;
+  line-height: 1.4;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition: all 0.7s ease;
 }
 
-
 /* BOX QUE APARECE AO CLICAR */
-.collapsible{/* largura */
+.collapsible {
+  /* largura */
   max-width: 1020px;
   overflow: hidden;
   font-weight: 500;
 }
-.collapsible input:checked ~ .collapsible-text {/* style / altura */
-height: 550px;
-padding-bottom: 20px;
-background: linear-gradient(
-  143deg,
-  #000000 7%,
-  #017347 7.2%,
-  #00bb73 21%,
-  #017347 21.2%,
-  #00bb73 86%,
-  #017347 86.2%,
-  #00bb73 90%,
-  #000000 90.2%
-);
-opacity: 1;
-top: 0;
-border: 5px solid black;
+
+.collapsible input:checked ~ .collapsible-text {
+  /* style / altura */
+  height: 550px;
+  padding-bottom: 20px;
+  background: linear-gradient(
+    143deg,
+    #000000 7%,
+    #017347 7.2%,
+    #00bb73 21%,
+    #017347 21.2%,
+    #00bb73 86%,
+    #017347 86.2%,
+    #00bb73 90%,
+    #000000 90.2%
+  );
+  opacity: 1;
+  top: 0;
+  border: 5px solid black;
 }
+
 .collapsible-text h2 {
-margin-bottom: 10px;
-padding: 15px 15px 0;
-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px 15px 0;
+  color: #ffffff;
 }
+
 .collapsible-text p {
-padding-left: 25px;
-padding-right: 25px;
-color: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #ffffff;
 }
+
 /* DESIGN .................... */
 .proupgradeMORE {
   background-color: #000000;
@@ -1466,6 +1514,7 @@ color: #ffffff;
   justify-content: center;
   text-align: center;
 }
+
 .proupgradeMORE h1 {
   color: #00ff55;
   font-size: 30px;
@@ -1473,6 +1522,7 @@ color: #ffffff;
   justify-content: center;
   margin-top: 20px;
 }
+
 
 
 /* ....................:::::::: MODELO ::::::::.................... */
@@ -1486,12 +1536,6 @@ color: #ffffff;
   color: white;
 }
 
-
-
-
-
-
-
 /* ....................:::::::: FOOTER ::::::::.................... */
 footer {
   text-align: center;
@@ -1499,6 +1543,7 @@ footer {
   background-color: #000000;
   color: white;
 }
+
 footer h1 {
   font-size: 20px;
   font-weight: 200;
